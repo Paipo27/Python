@@ -1,0 +1,16 @@
+from Cola1 import cola
+
+c=cola()
+print(c.estaVacio())
+c.agregar('perro')
+c.agregar(4)
+c=cola()
+print(c.estaVacio())
+c.agregar(4)
+c.agregar('perro')
+c.agregar(True)
+print(c.tamano())
+c.agregar(8.4)
+print(c.avanzar())
+print(c.avanzar())
+print(c.tamano())
